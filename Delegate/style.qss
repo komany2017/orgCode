@@ -1,0 +1,120 @@
+QProgressBar{
+        border: none;
+        text-align: center;
+        background: rgb(210, 225, 240);
+}
+
+QProgressBar::chunk{
+        background: rgb(20, 160, 230);
+}
+
+QPushButton#OpenButton{
+    border: none;
+    background-color: transparent;
+    image:url(:/img/image/folder_explore.png);
+}
+
+QPushButton:hover#OpenButton
+{
+    image:url(:/img/image/folder_star.png);
+}
+QPushButton:pressed#OpenButton
+{
+    image:url(:/img/image/key_delete.png);
+}
+
+QFrame#frame_2
+{
+   border-image: url(:/img/image/bk.jpg);
+}
+
+QToolButton#close
+{
+    border-image: url(:/img/image/close.png);
+}
+
+QToolButton:press#close
+{
+    border-image: url(:/img/image/close_pressed.png);
+}
+
+QToolButton:hover#close
+{
+    border-image: url(:/img/image/close_hover.png);
+}
+
+ButtonContextMenu#about
+{
+    border-image: url(:/img/image/menu.png);
+}
+
+ButtonContextMenu:press#about
+{
+    border-image: url(:/img/image/menu_pressed.png);
+}
+
+ButtonContextMenu:hover#about
+{
+    border-image: url(:/img/image/menu_hover.png);
+}
+
+
+QToolButton#small
+{
+    border-image: url(:/img/image/min.png);
+}
+
+QToolButton:press#small
+{
+    border-image: url(:/img/image/min_pressed.png);
+}
+
+QToolButton:hover#small
+{
+    border-image: url(:/img/image/min_hover.png);
+}
+
+
+/**********表头**********/
+QHeaderView{
+        color: rgb(183 , 183 , 183);
+        background: transparent;
+        border: none;
+        min-height: 25px;
+}
+QHeaderView::section:horizontal {
+        background: transparent;
+        padding-left:6px;
+        //border:none;
+        border-right: 1px solid rgb(202, 212, 219);
+}
+QHeaderView::section:horizontal:hover {
+         background: rgb(177, 224, 224);
+}
+QHeaderView::section:horizontal:pressed {
+        background: rgb(77, 224, 224);
+}
+
+/**********表格**********/
+QTableView {
+        color:black;
+        border: 1px solid rgb(202, 212, 219);
+        border-top: transparent;
+        background:rgb(100,100,100);
+}
+
+QTableView::item{
+        color:black;
+        background:transparent;
+        padding-left:5px;
+}
+
+QTableView::item:selected{
+        color:black;
+        background:transparent;
+}
+
+QTableView::item:hover{
+        color:black;
+        background:rgb(205,233,249);
+}

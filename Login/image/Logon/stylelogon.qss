@@ -1,0 +1,186 @@
+
+QFrame#CationFrame_Logon
+{
+   background:green;
+}
+
+QFrame#Frame_Logon
+{
+   background:rgb(241,241,241);
+}
+
+QFrame#BkWall_Logon
+{
+   background:transparent;
+}
+
+QComboBox
+{
+    background:white;
+    padding-left:5px ;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    border: 1px solid rgb(209 , 209 , 209);
+}
+
+QComboBox:hover
+{
+    border: 1px solid rgb(21 , 131 , 221);
+}
+
+QComboBox QAbstractItemView::item
+{
+    height:40px;
+}
+
+QComboBox::down-arrow
+{
+    border-image:url(image/Logon/drop_down_Button.png) 0 34 0 0 ;
+}
+
+QComboBox::down-arrow:hover
+{
+    border-image:url(image/Logon/drop_down_Button.png) 0 17 0 17 ;
+}
+
+QComboBox::down-arrow:on
+{
+    border-image:url(image/Logon/drop_down_Button.png) 0 0 0 34 ;
+}
+
+QComboBox::drop-down
+{
+    width:20px;
+    background:transparent;
+    padding-right:5px;
+}
+
+
+QLineEdit#password_Logon
+{
+    background:white;
+    padding-left:5px ;
+    padding-top:1px ;
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+    border: 1px solid rgb(209 , 209 , 209);
+    border-top:transparent;
+}
+
+QLineEdit#password_Logon:hover
+{
+    padding-top:0px ;
+    border: 1px solid rgb(21 , 131 , 221);
+}
+
+
+QPushButton#LogonClose
+{
+    border-image:url(image/Logon/closeback.png) 0 0 0 60 ;
+}
+
+QPushButton#LogonClose:hover
+{
+    border-image:url(image/Logon/closeback.png) 0 30 0 30 ;
+}
+
+QPushButton#LogonClose:pressed
+{
+    border-image:url(image/Logon/closeback.png) 0 60 0 0 ;
+}
+
+QPushButton#TroduceButton1_Logon:hover
+{
+    border-image:url(image/Logon/bitmap11.bmp) 0 0 59 0;
+}
+
+QPushButton#TroduceButton1_Logon
+{
+    border-image:url(image/Logon/bitmap11.bmp)  59 0 0 0;
+}
+
+QPushButton#ResgisterButton_Logon:hover
+{
+    border-image:url(image/Logon/bmp00009 (2).bmp) 0 51 0 0;
+}
+
+QPushButton#ResgisterButton_Logon
+{
+    border-image:url(image/Logon/bmp00009 (2).bmp)  0 0 0 51;
+}
+
+QPushButton#FindBackButton_Logon:hover
+{
+    border-image:url(image/Logon/bmp00053 (2).bmp) 0 51 0 0;
+}
+
+QPushButton#FindBackButton_Logon
+{
+    border-image:url(image/Logon/bmp00053 (2).bmp)  0 0 0 51;
+}
+
+
+QPushButton#FastLogon_Logon
+{
+    border-image:url(image/Logon/bmp00139.bmp) 0 108 0 0;
+}
+
+QPushButton#FastLogon_Logon:hover
+{
+    border-image:url(image/Logon/bmp00139.bmp) 0 0 0 108;
+}
+
+QPushButton#Logon_Logon
+{
+    border-image:url(image/Logon/bmp00026 (2).bmp) 0 59 0 0;
+}
+
+QPushButton#Logon_Logon:hover
+{
+    border-image:url(image/Logon/bmp00026 (2).bmp) 0 0 0 59;
+}
+
+QCheckBox::indicator#AutoLogonCheck_Logon:unchecked {
+    background:transparent;
+     image: url(image/Logon/bmp00052 (2).bmp);
+}
+
+QCheckBox::indicator#AutoLogonCheck_Logon:checked {
+    background:transparent;
+     image: url(image/Logon/bmp00051 (2).bmp);
+}
+
+
+QCheckBox::indicator#RecordCheck_Logon:unchecked {
+background:transparent;
+     image: url(image/Logon/bmp00022 (2).bmp);
+}
+
+QCheckBox::indicator#RecordCheck_Logon:checked {
+background:transparent;
+     image: url(image/Logon/bmp00025 (2).bmp);
+}
+
+CationTextLabel#CationTop_Logon
+{
+    font-size:18px;
+    color:white;
+    font-family:"隶书";
+    qproperty-Caption: " 鹏保宝";
+}
+
+CationTextLabel#Cation1_Logon
+{
+    font-size:13px;
+    color:black;
+    font-family:"隶书";
+    qproperty-Caption: "用户名/手机/邮箱:";
+}
+
+CationTextLabel#Cation2_Logon
+{
+    font-size:13px;
+    color:black;
+    font-family:"宋体";
+    qproperty-Caption: "密码:";
+}

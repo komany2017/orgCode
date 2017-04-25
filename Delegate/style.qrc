@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/qss">
+        <file>style.qss</file>
+    </qresource>
+    <qresource prefix="/img">
+        <file>image/folder_explore.png</file>
+        <file>image/key_delete.png</file>
+        <file>image/folder_star.png</file>
+        <file>image/bk.jpg</file>
+        <file>image/bk2.jpg</file>
+        <file>image/295353.jpg</file>
+        <file>image/close.png</file>
+        <file>image/close_hover.png</file>
+        <file>image/close_pressed.png</file>
+        <file>image/menu.png</file>
+        <file>image/menu_hover.png</file>
+        <file>image/menu_pressed.png</file>
+        <file>image/min.png</file>
+        <file>image/min_hover.png</file>
+        <file>image/min_pressed.png</file>
+    </qresource>
+    <qresource prefix="/gif">
+        <file>image/1.png</file>
+        <file>image/2.png</file>
+        <file>image/3.png</file>
+        <file>image/4.png</file>
+        <file>image/5.png</file>
+        <file>image/6.png</file>
+        <file>image/7.png</file>
+        <file>image/8.png</file>
+    </qresource>
+</RCC>
