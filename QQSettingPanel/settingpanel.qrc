@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>close.png</file>
+        <file>close_hover.png</file>
+        <file>close_pressed.png</file>
+        <file>min.png</file>
+        <file>min_hover.png</file>
+        <file>min_pressed.png</file>
+        <file>settingpanel.qm</file>
+        <file>home.png</file>
+        <file>setting.png</file>
+        <file>status.png</file>
+    </qresource>
+</RCC>

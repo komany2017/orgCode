@@ -1,0 +1,4 @@
+1、修改自老大的qqlogin，添加wke
+2、动画部分用html实现
+3、page_login.xml和html\index.html里面的url采用的是绝对路径（因为不会使用相对路径），需要自行修改。
+4、工程是2015 Win32
